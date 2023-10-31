@@ -8,7 +8,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_uusi_varasto_neg_tilavuus_neg_alkusaldo(self):
         v = Varasto(-10, -5)
-        self.assertAlmostEqual(v.saldo, 1)
+        self.assertAlmostEqual(v.saldo, 0)
 
     def test_uusi_varasto_tilavuus_gt_alkusaldo(self):
         v = Varasto(10, 5)
