@@ -19,8 +19,6 @@ def main():
         Lisätään 50.7"""
     ))
 
-    # this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint this shall trip pylint
-
     mehua.lisaa_varastoon(50.7)
     print(dedent(
         f"""\
