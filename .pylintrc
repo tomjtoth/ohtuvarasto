@@ -18,6 +18,16 @@ disable=raw-checker-failed,
 
 [FORMAT]
 
+max-line-length = 80
+
 [REFACTORING]
 
+max-nested-blocks = 2
+
 [DESIGN]
+
+max-args=4
+max-statements = 15
+
+# my choice, bumped into this with flask in course tsoha
+max-returns = 10
